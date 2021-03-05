@@ -6,9 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/dice2.png">
-    <!-- js -->
-    <link rel="stylesheet" href="./index.js">
-
     <title>The Dice Game</title>
 
 
@@ -34,33 +31,34 @@
 </head>
 
 <body>
-    <div class="background"></div>
-    <div class="overlay"></div>
-
 
     <div class="mainpage">
-        <div class="title">
-            <h1 id="title">Parcheesi</h1>
+        <div class="background"></div>
+        <div class="overlay"></div>
+        <div>
+            <h1 class="title" id="title">Parcheesi</h1>
         </div>
-        <div class="bg-text">
-            <div> <img id="img1" class="leftCircle" src="../images/dice1.png" alt=""></div>
-            <div class="pawnIcon"><i class="pawnIcon fas fa-chess-pawn"></i></div>
-            <div> <img id="img2" class="rightCircle" src="../images/dice1.png" alt=""></div>
-            <div class="button"><button id="starGame" type="button" class="btn btn-secondary">Roll The Dice</button>
-            </div>
+        <div class="box">
+            <img src="../images/dice1.png" id="img1" alt="">
+            <i class="fas fa-chess-pawn"></i>
+            <img src="../images/dice1.png" alt="" id="img2">
         </div>
-
+        <div class="button"><button id="starGame" type="button" class="btn btn-secondary">Roll The Dice</button>
+        </div>
         <div class="socialMedia">
             <a class="aIcons" href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a class="aIcons" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
             <a class="aIcons" href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a class="aIcons" href="https://gmail.com/" target="_blank"> <i class="far fa-envelope"></i></i></a>
         </div>
-        <p class="copyright">© Copyright 2021 </p>
+        <div class="footer">
+            <p class="copyright">© Copyright 2021 </p>
+        </div>
     </div>
 
-    <script defer src="../index.js"></script>
+
     <!-- JavaScript -->
+    <script defer src="../index.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
