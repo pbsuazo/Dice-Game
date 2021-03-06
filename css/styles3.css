@@ -1,0 +1,282 @@
+.mainpage {
+    /* height: 100vh;
+    width: 100vw; */
+    font-family: lato, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body {
+    background-image: url("../images/Backgroud.jpg");
+    background-color: black;
+}
+
+
+.imagen {
+    position: relative;
+    background-color: red;
+
+}
+
+.rollingDice {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 2%;
+    color: white;
+    height: 350px;
+    width: 350px;
+
+}
+
+/* seccionSuperior */
+
+.seccionSuperior {
+    display: flex;
+    justify-content: flex-end;
+    height: 8%;
+}
+
+.contactMe {
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+.testUnderline {
+    text-decoration: overline solid white;
+    text-decoration-thickness: 2px;
+
+}
+
+/* seccionCentral */
+
+.seccionCentral {
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box {
+    width: 600px;
+    margin-left: 30px;
+}
+
+.subfix {
+    font-size: 60px;
+    font-weight: 200;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+
+}
+
+/* .fa-dice {
+    font-size: 200px;
+} */
+
+
+/* seccionInferior */
+
+.seccionInferior {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    padding: 2% 2% 1%;
+}
+
+.aIcons {
+    margin: 1%;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.copyright {
+    margin-top: 80px;
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+}
+
+/* responsive behavior */
+
+@media (max-width: 768px) {
+    body {
+        background-color: black;
+        height: 100vh;
+
+    }
+
+    .contactMe {
+        margin-right: 20px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .seccionCentral {
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+
+    .box {
+        width: 100vw;
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .subfix {
+        font-size: 40px;
+        font-weight: 200;
+        color: white;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .socialMedia {
+        display: flex;
+        justify-content: center;
+        padding: 3% 3% 1%;
+    }
+
+    .aIcons {
+        margin: 1%;
+        color: white;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        margin-top: 80px;
+        position: absolute;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .rollingDice {
+        position: absolute;
+        margin-left: 38%;
+        margin-top: 32%;
+        color: white;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .rollingDice {
+        position: absolute;
+        margin-left: 38%;
+        margin-top: 4%;
+        color: white;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: black;
+        height: 100vh;
+
+    }
+
+    .contactMe {
+        margin-right: 20px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .seccionCentral {
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+
+    .box {
+        width: 100vw;
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .subfix {
+        font-size: 40px;
+        font-weight: 200;
+        color: white;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .socialMedia {
+        display: flex;
+        justify-content: center;
+        padding: 3% 3% 1%;
+    }
+
+    .aIcons {
+        margin: 1%;
+        color: white;
+        margin-bottom: 60px;
+    }
+
+    .copyright {
+        margin-top: 80px;
+        position: absolute;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .rollingDice {
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 55%;
+        color: white;
+        height: 200px;
+        width: 200px;
+    }
+}
