@@ -105,3 +105,29 @@ img {
   }
 
 }
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+
+  img {
+    width: 35%;
+  }
+
+  .fas {
+    font-size: 20vw;
+  }
+
+  .socialMedia {
+    width: 25vw;
+  }
+
+  .titulo {
+    position: relative;
+    margin-top: 5%;
+  }
+
+  .footer {
+    position: relative;
+    top: 7%;
+  }
+
+}
