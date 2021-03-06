@@ -7,7 +7,7 @@ body {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    background-image: url("./images/Backgroud.jpg");
+    background-image: url("../images/Backgroud.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
