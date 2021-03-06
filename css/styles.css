@@ -7,7 +7,7 @@ body {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    background-image: url("../images/Backgroud.jpg");
+    background-image: url("./images/Backgroud.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,7 +40,6 @@ body {
 
 
 .subfix {
-    font-size: 3vw;
     font-weight: 200;
     color: white;
 }
@@ -81,4 +80,56 @@ img {
     color: white;
     position: relative;
     top: 7%;
+}
+
+/* responsive */
+
+@media (max-device-width: 1024px) {
+
+    .mainpage {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100vw;
+    }
+
+    .box1 {
+        order: 2;
+        align-items: center;
+        position: relative;
+        top: 10%;
+
+    }
+
+    .box2 {
+        order: 3;
+    }
+
+    .box3 {
+        order: 1;
+    }
+
+    h1 {
+        font-size: 9vw;
+        font-weight: 500;
+        color: white;
+        padding-left: 0;
+    }
+
+    img {
+        width: 30vw;
+        position: relative;
+        top: 10%;
+    }
+
+    .socialMedia {
+        width: 30vw;
+    }
+
+    .contacMe {
+        padding: 5% 3% 0 0;
+    }
+
+
 }
