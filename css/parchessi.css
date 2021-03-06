@@ -2,7 +2,6 @@ body {}
 
 .title {
   font-family: vast shadow;
-  font-size: 4vw;
   color: white;
 }
 
@@ -66,7 +65,7 @@ img {
   filter: blur(8px);
   z-index: -1;
   position: absolute;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   inset: 0;
@@ -77,4 +76,32 @@ img {
   position: absolute;
   z-index: -1;
   inset: 0;
+}
+
+/* responsive */
+
+@media (max-device-width: 375px) {
+
+  img {
+    width: 35%;
+  }
+
+  .fas {
+    font-size: 20vw;
+  }
+
+  .socialMedia {
+    width: 25vw;
+  }
+
+  .titulo {
+    position: relative;
+    margin-top: 5%;
+  }
+
+  .footer {
+    position: relative;
+    top: 7%;
+  }
+
 }
